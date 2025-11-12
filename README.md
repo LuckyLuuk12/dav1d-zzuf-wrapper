@@ -29,7 +29,7 @@ We go the the dav1d source folder and build
 cd ./dav1d
 mkdir build
 cd ./build
-meson setup .. --<todo>-library=static
+meson setup .. --default-library=static
 ninja
 ```
 
