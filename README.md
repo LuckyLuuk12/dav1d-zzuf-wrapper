@@ -44,9 +44,11 @@ cd fuzzing # if not already in fuzzing folder
 ./dav1d -i path/to/someinputfile.ivf -o file.null
 ```
 
-Now to run zuff we want to add our custom script / wrapper and run that:
+Now to run zuff we want to add our custom script / wrapper and add some samples.
 ```sh
 cd fuzzing # if not already in fuzzing folder
+mkdir samples
+# put some samples in here, e.g. from https://send.zegs.me/small_av1s.zip unzipped
 touch run_zzuf
 nano run_zzuf
 # paste the script in there -> ctrl+x -> y -> enter
