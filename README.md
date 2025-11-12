@@ -64,10 +64,10 @@ and reattach any time with:
 
 The script supports some arguments to manage sessions as well:
 ```sh
-./run_zuff 						# starts a new session
+./run_zuff 						        # starts a new session
 ./run_zuff attach <session>		# attach / view the table of a session
-./run_zuff list 				# prints a list of sessions and info about them
-./run_zuff stop <session>		# stops a running session (cannot be continued afterwards)
+./run_zuff list 				      # prints a list of sessions and info about them
+./run_zuff stop <session>		  # stops a running session (cannot be continued afterwards)
 ./run_zuff pause <session>		# pauses a running session (this allows to continue it)
 ./run_zuff continue <session>	# continues a paused session
 ```
