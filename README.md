@@ -46,6 +46,7 @@ cd fuzzing # if not already in fuzzing folder
 
 Now to run zuff we want to add our custom script / wrapper and add some samples.
 ```sh
+sudo apt-get install zzuf
 cd fuzzing # if not already in fuzzing folder
 mkdir samples
 # put some samples in here, e.g. from https://send.zegs.me/small_av1s.zip unzipped
